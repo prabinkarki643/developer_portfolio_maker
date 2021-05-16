@@ -1,4 +1,4 @@
-# Create Your developer portfolio in 5-10min with REACT JS
+# Create Your developer portfolio in 5-10min with REACT JS & GlassMorphism Effects
 <img src="./gitImage/frontImage.png">
 <img src="./gitImage/whatIdo.png">
 <div>
