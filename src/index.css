@@ -1,6 +1,6 @@
-body {
+body,html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a{
+  text-decoration: none !important;
+  color:goldenrod
+}
+
+a:hover{
+  text-decoration: none !important;
+  color:goldenrod
+}
+
+.underline {
+  text-decoration: none !important;
+  position: relative !important;
+  display: inline !important;
+}
+.underline:after {
+  position: absolute !important;
+  content: "";
+  height: 2px;
+  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+  bottom: -2px;
+  /* center - (optional) use with adjusting width */
+  margin: 0 auto;
+  left: 0;
+  background: red !important ;
+  /* optional animation */
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }

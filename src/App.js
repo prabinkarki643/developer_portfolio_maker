@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+import Greeting from "./components/Greeting/Greeting";
+import TabsSection from "./components/TabsSection/TabsSection";
+import app_theme from "./theme";
+import { mainBackgroundImageLink } from "./data/portfolio.data";
+import SeoHeader from "./components/common/SeoHeader/SeoHeader";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={app_theme}>
+      <div
+        className="App"
+        style={{
+          width: "100vw",
+          height: "100vh",
+          backgroundImage: `url(${mainBackgroundImageLink})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          display: "flex",
+          alignItems: "center",
+          // justifyContent: 'center',
+          flexDirection: "column",
+          overflowY: "scroll",
+        }}
+      >
+        <SeoHeader />
+        <Greeting />
+
+        <TabsSection />
+      </div>
+    </ThemeProvider>
   );
 }
 
