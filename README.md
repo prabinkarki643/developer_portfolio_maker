@@ -13,4 +13,4 @@
 
 ## Demo
 
-[Demo Page](https://githubprabin143.github.io/developerPortfolioMaker 'Demo Page')
+[Demo Page](https://githubprabin143.github.io/developer_portfolio_maker 'Demo Page')
