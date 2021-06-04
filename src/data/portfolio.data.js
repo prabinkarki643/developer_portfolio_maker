@@ -159,21 +159,21 @@ export const proficiency = {
 export const educationInfo = {
   schools: [
     {
-      schoolName: "R.R. Institute of Technology (Bangalore)",
+      schoolName: "Bangalore Technological Institute (BTI)",
       logo: "/images/bti-new-logo@2x.png",
       degree: "Bachelor in computer science engineering",
       duration: "2014 - 2018",
       desc: "",
-      link: "https://www.facebook.com",
+      link: "https://btibangalore.org",
       descBullets: [],
     },
     {
-      schoolName: "R.R. Institute of Technology (Bangalore)",
-      logo: "/images/bti-new-logo@2x.png",
-      degree: "Diploma in computer science & engineering",
+      schoolName: "Pinnacle Academy",
+      logo: "/images/pinnacle_academy.png",
+      degree: "+2 with computer science",
       duration: "2012 - 2014",
       desc: "",
-      link: "",
+      link: "https://www.pinnacleacademy.edu.np",
       descBullets: [],
     },
   ],
@@ -267,6 +267,6 @@ export const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-8050078113",
-  email_address: "milanshrestha837@gmail.com",
+  number: "+91-8088161168",
+  email_address: "prabinkark643@gmail.com",
 };
